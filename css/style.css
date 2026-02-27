@@ -1,0 +1,25 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO */
+.hero{
+height: 90vh;
+background: linear-gradient(135deg,#1db954,#121212);
+}
+
+/* FEATURE CARDS */
+.feature-card{
+transition: 0.3s;
+border: none;
+}
+.feature-card:hover{
+transform: translateY(-10px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer ul li{
+margin-bottom:8px;
+cursor:pointer;
+}
